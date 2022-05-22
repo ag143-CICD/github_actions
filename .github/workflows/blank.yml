@@ -36,4 +36,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo  ${WHO_TO_TRUST}
+          echo  "echoing repo level secret: "${WHO_TO_TRUST}
